@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {HelloWorld} from "@lerna-react-modules/components";
+import {HelloWorld} from "@lerna-react-modules/common";
 
 const App: React.FC = () => {
   return (
