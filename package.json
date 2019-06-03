@@ -15,5 +15,6 @@
     "tsc": "lerna run tsc --stream",
     "watch": "lerna run watch --stream",
     "publish": "lerna run tsc && lerna publish"
+    
   }
 }
