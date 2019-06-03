@@ -1,6 +1,6 @@
 {
   "name": "@lerna-react-modules/components",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "> TODO: description",
   "author": "Arslan Hayat <muhammadarslanhayat@gmail.com>",
   "homepage": "https://github.com/ArslanHayat12/lernaReactProject#readme",
@@ -20,7 +20,7 @@
     "react-dom": ">= 16.8.0 < 17"
   },
   "publishConfig": {
-    "access":"public"
+    "access": "public"
   },
   "devDependencies": {
     "@types/jest": "24.0.11",
