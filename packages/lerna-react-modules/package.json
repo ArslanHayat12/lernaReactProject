@@ -1,0 +1,33 @@
+{
+  "name": "@lerna-react-modules/components",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Arslan Hayat <muhammadarslanhayat@gmail.com>",
+  "homepage": "https://github.com/ArslanHayat12/lernaReactProject#readme",
+  "license": "ISC",
+  "main": "lib/lerna-react-modules.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "types": "./lib/types.d.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "cleanbuild": "rm -r node_modules && npm install && tsc"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">= 16.8.0 < 17",
+    "react-dom": ">= 16.8.0 < 17"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.11",
+    "@types/node": "11.13.0",
+    "@types/react-dom": "16.8.3",
+    "tslib": "1.9.3",
+    "@types/react": "16.8.10",
+    "typescript": "3.4.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  }
+}
