@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^12.0.4",
+    "lerna": "^3.14.1",
+    "typescript": "^3.5.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "start": "lerna run start --stream",
+    "tsc": "lerna run tsc --stream",
+    "watch": "lerna run watch --stream"
+  }
+}
