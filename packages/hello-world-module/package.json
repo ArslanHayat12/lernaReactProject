@@ -1,16 +1,25 @@
 {
-  "name": "@lerna-react-modules/components",
+  "name": "hello-world-module",
   "version": "0.2.5",
   "description": "> TODO: description",
   "author": "Arslan Hayat <muhammadarslanhayat@gmail.com>",
   "homepage": "https://github.com/ArslanHayat12/lernaReactProject#readme",
   "license": "ISC",
-  "main": "./lib/lerna-react-modules.js",
+  "main": "lib/hello-world-module.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
-  "types": "./lib/types.d.ts",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArslanHayat12/lernaReactProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArslanHayat12/lernaReactProject/issues"
+  },
   "scripts": {
     "tsc": "tsc",
     "cleanbuild": "rm -r node_modules && npm install && tsc"
@@ -32,4 +41,5 @@
     "tslib": "1.9.3",
     "typescript": "3.4.1"
   }
+
 }
