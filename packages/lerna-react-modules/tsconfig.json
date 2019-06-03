@@ -23,7 +23,6 @@
       "allowSyntheticDefaultImports": true
     },
     "exclude": [
-      "lib",
       "node_modules",
       "build",
       "scripts",
